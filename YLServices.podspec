@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name                  = 'YLServices'
-  s.version               = '0.2.0'
+  s.version               = '0.3.0'
   s.summary               = 'iOS 开发工具'
   s.homepage              = 'https://github.com/a619668402/YLServices'
   s.author                = { 'DYL' => '15637195529@163.com' }
