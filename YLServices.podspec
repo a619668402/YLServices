@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc          = true
 
   s.ios.deployment_target = '8.0'
-  s.source_files          = 'YLServices/YLMBProgress', '*.{h,m}'
+  s.source_files          = 'YLServices/Macros{Tools,Constant,Define,Singleton}.{h,m}'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks          = 'UIKit', 'MapKit'

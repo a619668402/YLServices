@@ -7,7 +7,7 @@
 //
 
 #import "YLViewController.h"
-#import "YLMBProgressHUD+Toast.h"
+#import "MacrosTools.h"
 
 @interface YLViewController ()
 
@@ -22,7 +22,7 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [YLMBProgressHUD showMessageWithView:self.view message:@"test"];
+    KLog(@"-------");
 }
 
 - (void)didReceiveMemoryWarning

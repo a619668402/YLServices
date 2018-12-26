@@ -10,8 +10,10 @@
 #endif
 #endif
 
-#import "YLMBProgressHUD+Toast.h"
-#import "YLMBProgressHUD.h"
+#import "MacrosConstant.h"
+#import "MacrosDefine.h"
+#import "MacrosSingleton.h"
+#import "MacrosTools.h"
 
 FOUNDATION_EXPORT double YLServicesVersionNumber;
 FOUNDATION_EXPORT const unsigned char YLServicesVersionString[];

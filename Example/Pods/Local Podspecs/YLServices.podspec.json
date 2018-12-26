@@ -18,8 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": [
-    "YLServices/YLMBProgress",
-    "*.{h,m}"
-  ]
+  "source_files": "YLServices/Macros{Tools,Constant,Define,Singleton}.{h,m}"
 }
