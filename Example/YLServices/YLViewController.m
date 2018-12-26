@@ -7,6 +7,7 @@
 //
 
 #import "YLViewController.h"
+#import "YLMBProgressHUD+Toast.h"
 
 @interface YLViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [YLMBProgressHUD showMessageWithView:self.view message:@"test"];
 }
 
 - (void)didReceiveMemoryWarning
