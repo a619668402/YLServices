@@ -1,0 +1,22 @@
+{
+  "name": "YLServices",
+  "version": "0.1.0",
+  "summary": "A short description of YLServices.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/619668402@qq.com/YLServices",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "619668402@qq.com": "15637195529@163.com"
+  },
+  "source": {
+    "git": "https://github.com/619668402@qq.com/YLServices.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YLServices/Classes/**/*"
+}
