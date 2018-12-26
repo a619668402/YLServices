@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name                  = 'YLServices'
-  s.version               = '0.1.0'
+  s.version               = '0.2.0'
   s.summary               = 'iOS 开发工具'
   s.homepage              = 'https://github.com/a619668402/YLServices'
   s.author                = { 'DYL' => '15637195529@163.com' }
@@ -17,14 +17,27 @@ Pod::Spec.new do |s|
   s.requires_arc          = true
 
   s.ios.deployment_target = '8.0'
-  s.source_files          = 'YLServices/Macros{Tools,Constant,Define,Singleton}.{h,m}'
+  s.source_files          = 'YLServices/YLServices.h'
+  s.public_header_files   = 'YLServices/YLServices.h'
+  s.dependency 'MJRefresh', '~> 3.1.15.7'
+  s.dependency 'YTKNetwork', '~> 2.0.4'
+  s.dependency 'ReactiveObjC', '~> 3.1.0'
+  s.dependency 'YYWebImage', '~> 1.0.5'
 
-  s.subspec 'YLMBProgress' do |ss|
-      ss.source_files = 'YLServices/YLMBProgress/*.{h,m}'
-      ss.public_header_files = 'YLServices/YLMBProgress/*.h'
-      ss.ios.frameworks = 'Foundation', 'UIKit', 'CoreGraphics'
+  s.subspec 'YLMacros' do |ss|
+  ss.source_files         = 'YLServices/YLMacros/*.{h,m}'
+  ss.public_header_files  = 'YLServices/YLMacros/*.h'
   end
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks          = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'YLMBProgress' do |ss|
+  ss.source_files         = 'YLServices/YLMBProgress/*.{h,m}'
+  ss.public_header_files  = 'YLServices/YLMBProgress/*.h'
+  ss.ios.frameworks       = 'Foundation', 'UIKit', 'CoreGraphics'
+  end
+  s.subspec 'YLCategory' do |ss|
+  ss.source_files         = 'YLServices/YLCategory/*.{h,m}'
+  ss.public_header_files  = 'YLServices/YLCategory/*.h'
+  ss.ios.frameworks       = 'Foundation', 'UIKit', 'CoreGraphics'
+  ss.dependency 'YLServices/YLMacros'
+  ss.dependency 'YLServices/YLMBProgress'
+  end
 end
