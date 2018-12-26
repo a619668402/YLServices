@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'YLServices'
 ```
 
-## Author
-
-619668402@qq.com, 15637195529@163.com
-
 ## License
 
 YLServices is available under the MIT license. See the LICENSE file for more info.
