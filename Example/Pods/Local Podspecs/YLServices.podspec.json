@@ -18,5 +18,19 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YLServices/Macros{Tools,Constant,Define,Singleton}.{h,m}"
+  "source_files": "YLServices/Macros{Tools,Constant,Define,Singleton}.{h,m}",
+  "subspecs": [
+    {
+      "name": "YLMBProgress",
+      "source_files": "YLServices/YLMBProgress/*.{h,m}",
+      "public_header_files": "AFNetworking/YLMBProgress/*.h",
+      "ios": {
+        "frameworks": [
+          "Foundation",
+          "UIKit",
+          "CoreGraphics"
+        ]
+      }
+    }
+  ]
 }

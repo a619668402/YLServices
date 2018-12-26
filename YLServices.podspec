@@ -19,6 +19,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files          = 'YLServices/Macros{Tools,Constant,Define,Singleton}.{h,m}'
 
+  s.subspec 'YLMBProgress' do |ss|
+      ss.source_files = 'YLServices/YLMBProgress/*.{h,m}'
+      ss.public_header_files = 'YLServices/YLMBProgress/*.h'
+      ss.ios.frameworks = 'Foundation', 'UIKit', 'CoreGraphics'
+  end
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks          = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

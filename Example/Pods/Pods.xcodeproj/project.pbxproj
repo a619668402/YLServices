@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		106E3AE0C294B2DD64329C0C7A5D6FBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		0F1C79FF94865F7731EFC229E8B58A7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B47C49427D8450C412A7F38AC4D176 /* UIKit.framework */; };
 		1242874C6D7486EA0057EBB1770FC4DA /* Pods-YLServices_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2805FFF4628344B1F9CDC8B3F1C92816 /* Pods-YLServices_Tests-dummy.m */; };
-		1CB56305C23C8801BF5082C1C7A75BC9 /* MacrosDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 1325DD129BD9407A2D83971ACE9704C8 /* MacrosDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F7EDED9BC55C364D808CB07BEF6605F /* MacrosSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E694F97CC525111B116816B342FD9F /* MacrosSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		208E1E38C6298ACF3E690A2C65F38D43 /* MacrosConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB8C47506D1234E9CCA7F40CD6D850B /* MacrosConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43064AD37A09E5EF1B8649BB81CA4BEE /* MacrosConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB008B28A740CEB0EBC8AB5D82E7415 /* MacrosConstant.m */; };
+		1E1479859899015AF3937F78A464C768 /* MacrosTools.h in Headers */ = {isa = PBXBuildFile; fileRef = D103054ADF52610E406F0590C2DDC81A /* MacrosTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2109997FD4084476A8C01D4391C8C4D1 /* YLMBProgressHUD+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = D97C34D5B173CEF26801E93B07544499 /* YLMBProgressHUD+Toast.m */; };
+		2CFF29028B2B7295907241648A7DC64F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 332A7FBB6374494A6CFBE524A2C4950F /* CoreGraphics.framework */; };
+		2D18159315E8E4000139A6DB60EDC63A /* YLMBProgressHUD+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B7DEFD7FE7D39C6B770AEEE8691D3C5 /* YLMBProgressHUD+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D94E9EB363DB63909E944DED59E5668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E0793204BC4297E5D7611C4B708CCB /* Foundation.framework */; };
+		4997C605A609026B10961F2369B08337 /* YLServices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC3BD2C84683B03D58102F965D7D806 /* YLServices-dummy.m */; };
 		4C2DB5C2E3E732BFCD362DD18F760936 /* Pods-YLServices_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6E9F9A84A82BA740ACF1904E60894F /* Pods-YLServices_Example-dummy.m */; };
-		6E3F1D9A03230E1601EE30151059444E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		8288CFDE32F5FFE18C93868711E2DE6D /* MacrosTools.h in Headers */ = {isa = PBXBuildFile; fileRef = B12E143E0A1FCC991BF2D29FD665583D /* MacrosTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E3F1D9A03230E1601EE30151059444E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E0793204BC4297E5D7611C4B708CCB /* Foundation.framework */; };
+		74426AE0E47F2328FDE985901AF516F6 /* MacrosDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 25DEF2AAE71EC39F09348ECF674648A2 /* MacrosDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BA0B908BC6A57B92F765BAD74F16FCB /* YLMBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7D26E6DE7AEEC39A1EC6622C20629 /* YLMBProgressHUD.m */; };
 		9005CF3FE46F784BC91FCEF927D9F7E3 /* Pods-YLServices_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2AD6D307999263080318ADAAE111DB /* Pods-YLServices_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A28B59F508527DB720025A1900DD82BF /* YLServices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE25437206120BBCC3AF66B6E664DB4 /* YLServices-dummy.m */; };
-		A961809A4B2766E01A115DED32321767 /* YLServices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE37FF11F9866FC27996E3DBE2145542 /* YLServices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAA9C16D32FF31795FF86A2C444795DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		95B5C21C3EB349F4F1F80691161AFC99 /* MacrosConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E326254BA2ED9008A3C5FD09BD91C80 /* MacrosConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAA9C16D32FF31795FF86A2C444795DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E0793204BC4297E5D7611C4B708CCB /* Foundation.framework */; };
+		DE79DEB53216AD25AEC76E5007A2C2D0 /* YLMBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BE53DBFA7FBA5A74AA000C8A26E805 /* YLMBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAED0AE63728082873B242A673127EED /* MacrosSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D57AF98B5DAE1FE8AD24B418D6D5B53 /* MacrosSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F19E14083C82CB1AF2DF0B1E01E3CE30 /* Pods-YLServices_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A277CEF56B0809769F50496B710E42 /* Pods-YLServices_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F53BB7BADAFA60CB5DCCB8A6096323BF /* MacrosConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = B7016D42DBF258F1B631E43393102F2E /* MacrosConstant.m */; };
+		F608AB588011FBEAE927336BAE1B93AA /* YLServices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA998B5886F9471362331A97B248FA9F /* YLServices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,61 +40,69 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CB8C47506D1234E9CCA7F40CD6D850B /* MacrosConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacrosConstant.h; path = YLServices/MacrosConstant.h; sourceTree = "<group>"; };
+		0B7DEFD7FE7D39C6B770AEEE8691D3C5 /* YLMBProgressHUD+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YLMBProgressHUD+Toast.h"; path = "YLServices/YLMBProgress/YLMBProgressHUD+Toast.h"; sourceTree = "<group>"; };
 		0F27B9DD22CD59F86C5A31D08B7551ED /* Pods-YLServices_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLServices_Example.modulemap"; sourceTree = "<group>"; };
 		1047956DCD0F5698614CD7565B59829F /* Pods-YLServices_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLServices_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		10F33E8D5FA0C07E11224824F41EFC9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1325DD129BD9407A2D83971ACE9704C8 /* MacrosDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacrosDefine.h; path = YLServices/MacrosDefine.h; sourceTree = "<group>"; };
 		13954C3C52418156F98C8857FEE78176 /* Pods-YLServices_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLServices_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		21C55BA6482A0F25D26E2899759146C7 /* Pods_YLServices_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLServices_Tests.framework; path = "Pods-YLServices_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24ED092092C4795ABCE51AC8A944E4A7 /* YLServices.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YLServices.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25DEF2AAE71EC39F09348ECF674648A2 /* MacrosDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacrosDefine.h; path = YLServices/MacrosDefine.h; sourceTree = "<group>"; };
 		2645C314DB880F153A795FDE1D124FE0 /* Pods-YLServices_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLServices_Tests-resources.sh"; sourceTree = "<group>"; };
 		2805FFF4628344B1F9CDC8B3F1C92816 /* Pods-YLServices_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLServices_Tests-dummy.m"; sourceTree = "<group>"; };
 		2AE2B33035C2F865E4F3E67DD3F95AF0 /* Pods-YLServices_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLServices_Tests.modulemap"; sourceTree = "<group>"; };
+		2CA43C280E6CB1412E65C41E7BC696BF /* YLServices.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YLServices.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		332A7FBB6374494A6CFBE524A2C4950F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		384E0C55DF2681CD3F3F94C70E587F73 /* Pods-YLServices_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLServices_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3A1F7B20EC098FE659B911EBAFA87A16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3AE25437206120BBCC3AF66B6E664DB4 /* YLServices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLServices-dummy.m"; sourceTree = "<group>"; };
-		3BADE13C5DB13566B0C1AFABC0B0DAF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5FB008B28A740CEB0EBC8AB5D82E7415 /* MacrosConstant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MacrosConstant.m; path = YLServices/MacrosConstant.m; sourceTree = "<group>"; };
+		4E326254BA2ED9008A3C5FD09BD91C80 /* MacrosConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacrosConstant.h; path = YLServices/MacrosConstant.h; sourceTree = "<group>"; };
+		6DC1E85E0FA604FE96CC52B69E58972C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B47C49427D8450C412A7F38AC4D176 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7D57AF98B5DAE1FE8AD24B418D6D5B53 /* MacrosSingleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacrosSingleton.h; path = YLServices/MacrosSingleton.h; sourceTree = "<group>"; };
+		7DC3BD2C84683B03D58102F965D7D806 /* YLServices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLServices-dummy.m"; sourceTree = "<group>"; };
 		7DCD4C2FBBB15B704BEE8DF69F3DD966 /* Pods-YLServices_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLServices_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		81E694F97CC525111B116816B342FD9F /* MacrosSingleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacrosSingleton.h; path = YLServices/MacrosSingleton.h; sourceTree = "<group>"; };
 		85A277CEF56B0809769F50496B710E42 /* Pods-YLServices_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLServices_Example-umbrella.h"; sourceTree = "<group>"; };
 		89F180D2FD48D9FE5605132F4CD372ED /* Pods_YLServices_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLServices_Example.framework; path = "Pods-YLServices_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98D0642DE91DE9EA601F54822CCAEB16 /* YLServices.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLServices.xcconfig; sourceTree = "<group>"; };
-		9E257473C7EAD26F262C1752F46BD602 /* YLServices-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLServices-prefix.pch"; sourceTree = "<group>"; };
-		AE37FF11F9866FC27996E3DBE2145542 /* YLServices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLServices-umbrella.h"; sourceTree = "<group>"; };
+		94DF56C668D54E48DB6D3E279F04A4A1 /* YLServices-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLServices-prefix.pch"; sourceTree = "<group>"; };
+		9F8C1A5EBB78758313F6FB52C68D445B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A3285A281A6009B4B4E2F6954E9D760F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AB91DA7872BFBD2BF4E8E3EFD249F701 /* YLServices.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLServices.xcconfig; sourceTree = "<group>"; };
 		AF6E9F9A84A82BA740ACF1904E60894F /* Pods-YLServices_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLServices_Example-dummy.m"; sourceTree = "<group>"; };
-		B12E143E0A1FCC991BF2D29FD665583D /* MacrosTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacrosTools.h; path = YLServices/MacrosTools.h; sourceTree = "<group>"; };
 		B3389760D0C65C126574563F81AD86CC /* Pods-YLServices_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLServices_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7016D42DBF258F1B631E43393102F2E /* MacrosConstant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MacrosConstant.m; path = YLServices/MacrosConstant.m; sourceTree = "<group>"; };
+		B8E0793204BC4297E5D7611C4B708CCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		BB7C0B0E794BEBA73E32FCC1533C00D6 /* YLServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLServices.framework; path = YLServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0925CD456AC1F6C61F8042E9DF1FD12 /* Pods-YLServices_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLServices_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CA58C2F04B820B820D91EADCB53D19E9 /* YLServices.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLServices.modulemap; sourceTree = "<group>"; };
-		CB438CD375D1F0230E56E61B3718B95F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C5BE53DBFA7FBA5A74AA000C8A26E805 /* YLMBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLMBProgressHUD.h; path = YLServices/YLMBProgress/YLMBProgressHUD.h; sourceTree = "<group>"; };
 		CFD8559B19DABFF067FC04F2172A6A0C /* Pods-YLServices_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLServices_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D017735639B5268E8E8435934E238CCE /* Pods-YLServices_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLServices_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D103054ADF52610E406F0590C2DDC81A /* MacrosTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacrosTools.h; path = YLServices/MacrosTools.h; sourceTree = "<group>"; };
+		D2F3CFD780C99933C3E4C884CC6FE695 /* YLServices.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLServices.modulemap; sourceTree = "<group>"; };
+		D97C34D5B173CEF26801E93B07544499 /* YLMBProgressHUD+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YLMBProgressHUD+Toast.m"; path = "YLServices/YLMBProgress/YLMBProgressHUD+Toast.m"; sourceTree = "<group>"; };
 		E00CA1ADD0F53F2CB65C40ED504F3E6F /* Pods-YLServices_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLServices_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E1FA94925CDCBA8408C42B14F546AE18 /* Pods-YLServices_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLServices_Example-resources.sh"; sourceTree = "<group>"; };
+		E5C7D26E6DE7AEEC39A1EC6622C20629 /* YLMBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLMBProgressHUD.m; path = YLServices/YLMBProgress/YLMBProgressHUD.m; sourceTree = "<group>"; };
 		E85C151A03107EE10C2B52E7A7C5BBD6 /* Pods-YLServices_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLServices_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EA998B5886F9471362331A97B248FA9F /* YLServices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLServices-umbrella.h"; sourceTree = "<group>"; };
 		EBEB4C6E619E24AD4E70D8B51DB41341 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE2AD6D307999263080318ADAAE111DB /* Pods-YLServices_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLServices_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2D6761C8145C3D77F91539D4FE2FC0BC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				106E3AE0C294B2DD64329C0C7A5D6FBE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		322433EDF6D1055234CB3A60832A4D72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DAA9C16D32FF31795FF86A2C444795DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759C46A73C8795FE36B2A58C0E30B2C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFF29028B2B7295907241648A7DC64F /* CoreGraphics.framework in Frameworks */,
+				3D94E9EB363DB63909E944DED59E5668 /* Foundation.framework in Frameworks */,
+				0F1C79FF94865F7731EFC229E8B58A7B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +117,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				783AC406169EF39EFE9B0561CF0AC2AB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		24B8FD4700C575A0F584BB926336C0AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,12 +153,33 @@
 			path = "Target Support Files/Pods-YLServices_Tests";
 			sourceTree = "<group>";
 		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+		2F8DBDADBD103AF196EF036CB9D46AC5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+				9F8C1A5EBB78758313F6FB52C68D445B /* LICENSE */,
+				A3285A281A6009B4B4E2F6954E9D760F /* README.md */,
+				2CA43C280E6CB1412E65C41E7BC696BF /* YLServices.podspec */,
 			);
-			name = iOS;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3DFF7A5ECC5985F7D1069F4DC68FE305 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3F15077013C973B2228C7B63FA07D10 /* YLServices */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		47A9C14DFA55372B242A1E6D2A995773 /* YLMBProgress */ = {
+			isa = PBXGroup;
+			children = (
+				C5BE53DBFA7FBA5A74AA000C8A26E805 /* YLMBProgressHUD.h */,
+				E5C7D26E6DE7AEEC39A1EC6622C20629 /* YLMBProgressHUD.m */,
+				0B7DEFD7FE7D39C6B770AEEE8691D3C5 /* YLMBProgressHUD+Toast.h */,
+				D97C34D5B173CEF26801E93B07544499 /* YLMBProgressHUD+Toast.m */,
+			);
+			name = YLMBProgress;
 			sourceTree = "<group>";
 		};
 		5A1DBA19C8511E7CFC49212FAFBA1EEF /* Targets Support Files */ = {
@@ -148,70 +191,41 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7D97C0451C3851B105E4792636CAF4E1 /* Support Files */ = {
+		783AC406169EF39EFE9B0561CF0AC2AB /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				10F33E8D5FA0C07E11224824F41EFC9A /* Info.plist */,
-				CA58C2F04B820B820D91EADCB53D19E9 /* YLServices.modulemap */,
-				98D0642DE91DE9EA601F54822CCAEB16 /* YLServices.xcconfig */,
-				3AE25437206120BBCC3AF66B6E664DB4 /* YLServices-dummy.m */,
-				9E257473C7EAD26F262C1752F46BD602 /* YLServices-prefix.pch */,
-				AE37FF11F9866FC27996E3DBE2145542 /* YLServices-umbrella.h */,
+				332A7FBB6374494A6CFBE524A2C4950F /* CoreGraphics.framework */,
+				B8E0793204BC4297E5D7611C4B708CCB /* Foundation.framework */,
+				70B47C49427D8450C412A7F38AC4D176 /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YLServices";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E60BB36FEECFAD2F4C2C8268373EC772 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3DFF7A5ECC5985F7D1069F4DC68FE305 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				24B8FD4700C575A0F584BB926336C0AC /* Products */,
 				5A1DBA19C8511E7CFC49212FAFBA1EEF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8032C960E66DE31410E27940A3DBAD23 /* YLServices */ = {
+		C3F15077013C973B2228C7B63FA07D10 /* YLServices */ = {
 			isa = PBXGroup;
 			children = (
-				0CB8C47506D1234E9CCA7F40CD6D850B /* MacrosConstant.h */,
-				5FB008B28A740CEB0EBC8AB5D82E7415 /* MacrosConstant.m */,
-				1325DD129BD9407A2D83971ACE9704C8 /* MacrosDefine.h */,
-				81E694F97CC525111B116816B342FD9F /* MacrosSingleton.h */,
-				B12E143E0A1FCC991BF2D29FD665583D /* MacrosTools.h */,
-				EF6AE87159325E485AF4480DAD6934FF /* Pod */,
-				7D97C0451C3851B105E4792636CAF4E1 /* Support Files */,
+				4E326254BA2ED9008A3C5FD09BD91C80 /* MacrosConstant.h */,
+				B7016D42DBF258F1B631E43393102F2E /* MacrosConstant.m */,
+				25DEF2AAE71EC39F09348ECF674648A2 /* MacrosDefine.h */,
+				7D57AF98B5DAE1FE8AD24B418D6D5B53 /* MacrosSingleton.h */,
+				D103054ADF52610E406F0590C2DDC81A /* MacrosTools.h */,
+				2F8DBDADBD103AF196EF036CB9D46AC5 /* Pod */,
+				F8C88447D9FBBC275324E165B777E618 /* Support Files */,
+				47A9C14DFA55372B242A1E6D2A995773 /* YLMBProgress */,
 			);
 			name = YLServices;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E60BB36FEECFAD2F4C2C8268373EC772 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8032C960E66DE31410E27940A3DBAD23 /* YLServices */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		EF6AE87159325E485AF4480DAD6934FF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3BADE13C5DB13566B0C1AFABC0B0DAF5 /* LICENSE */,
-				CB438CD375D1F0230E56E61B3718B95F /* README.md */,
-				24ED092092C4795ABCE51AC8A944E4A7 /* YLServices.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		F6CEB71AE1E07765718D36C2F5EAEEF1 /* Pods-YLServices_Example */ = {
@@ -230,6 +244,20 @@
 			);
 			name = "Pods-YLServices_Example";
 			path = "Target Support Files/Pods-YLServices_Example";
+			sourceTree = "<group>";
+		};
+		F8C88447D9FBBC275324E165B777E618 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DC1E85E0FA604FE96CC52B69E58972C /* Info.plist */,
+				D2F3CFD780C99933C3E4C884CC6FE695 /* YLServices.modulemap */,
+				AB91DA7872BFBD2BF4E8E3EFD249F701 /* YLServices.xcconfig */,
+				7DC3BD2C84683B03D58102F965D7D806 /* YLServices-dummy.m */,
+				94DF56C668D54E48DB6D3E279F04A4A1 /* YLServices-prefix.pch */,
+				EA998B5886F9471362331A97B248FA9F /* YLServices-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YLServices";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,15 +279,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6BFD16965591660A8C98F68061985A0 /* Headers */ = {
+		C907085A23ED0A176BD90795911DAF84 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				208E1E38C6298ACF3E690A2C65F38D43 /* MacrosConstant.h in Headers */,
-				1CB56305C23C8801BF5082C1C7A75BC9 /* MacrosDefine.h in Headers */,
-				1F7EDED9BC55C364D808CB07BEF6605F /* MacrosSingleton.h in Headers */,
-				8288CFDE32F5FFE18C93868711E2DE6D /* MacrosTools.h in Headers */,
-				A961809A4B2766E01A115DED32321767 /* YLServices-umbrella.h in Headers */,
+				95B5C21C3EB349F4F1F80691161AFC99 /* MacrosConstant.h in Headers */,
+				74426AE0E47F2328FDE985901AF516F6 /* MacrosDefine.h in Headers */,
+				EAED0AE63728082873B242A673127EED /* MacrosSingleton.h in Headers */,
+				1E1479859899015AF3937F78A464C768 /* MacrosTools.h in Headers */,
+				2D18159315E8E4000139A6DB60EDC63A /* YLMBProgressHUD+Toast.h in Headers */,
+				DE79DEB53216AD25AEC76E5007A2C2D0 /* YLMBProgressHUD.h in Headers */,
+				F608AB588011FBEAE927336BAE1B93AA /* YLServices-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,9 +318,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 019FB352553EA0413FE1769EC6BCBF94 /* Build configuration list for PBXNativeTarget "YLServices" */;
 			buildPhases = (
-				E6BFD16965591660A8C98F68061985A0 /* Headers */,
-				F058D77049AF6D6F260EF3F291FAF2DA /* Sources */,
-				2D6761C8145C3D77F91539D4FE2FC0BC /* Frameworks */,
+				C907085A23ED0A176BD90795911DAF84 /* Headers */,
+				98B008D2FE51BD3A695703C74C1CB3DF /* Sources */,
+				759C46A73C8795FE36B2A58C0E30B2C4 /* Frameworks */,
 				5D1F20E1D289CC1B2D4547D5B14DD28B /* Resources */,
 			);
 			buildRules = (
@@ -374,6 +404,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		98B008D2FE51BD3A695703C74C1CB3DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53BB7BADAFA60CB5DCCB8A6096323BF /* MacrosConstant.m in Sources */,
+				2109997FD4084476A8C01D4391C8C4D1 /* YLMBProgressHUD+Toast.m in Sources */,
+				7BA0B908BC6A57B92F765BAD74F16FCB /* YLMBProgressHUD.m in Sources */,
+				4997C605A609026B10961F2369B08337 /* YLServices-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CF8A40506E388F74F974A4F68894DFE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,15 +428,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C2DB5C2E3E732BFCD362DD18F760936 /* Pods-YLServices_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F058D77049AF6D6F260EF3F291FAF2DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43064AD37A09E5EF1B8649BB81CA4BEE /* MacrosConstant.m in Sources */,
-				A28B59F508527DB720025A1900DD82BF /* YLServices-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,7 +543,7 @@
 		};
 		28CA88B6327A108EAFF908EC23B99AA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98D0642DE91DE9EA601F54822CCAEB16 /* YLServices.xcconfig */;
+			baseConfigurationReference = AB91DA7872BFBD2BF4E8E3EFD249F701 /* YLServices.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -541,7 +573,7 @@
 		};
 		2EE03C56B47C7E7ACCB955B636B9F134 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98D0642DE91DE9EA601F54822CCAEB16 /* YLServices.xcconfig */;
+			baseConfigurationReference = AB91DA7872BFBD2BF4E8E3EFD249F701 /* YLServices.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

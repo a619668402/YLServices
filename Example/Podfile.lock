@@ -1,5 +1,7 @@
 PODS:
-  - YLServices (0.1.0)
+  - YLServices (0.1.0):
+    - YLServices/YLMBProgress (= 0.1.0)
+  - YLServices/YLMBProgress (0.1.0)
 
 DEPENDENCIES:
   - YLServices (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  YLServices: 24f3db3ba8a6d3259d31648588d139f443cf9a8f
+  YLServices: e77005e8e2815fed811e2d3db3af5f7caa38f9ef
 
 PODFILE CHECKSUM: 69fe72f78ed32b2c91aea421d20f771e81081547
 

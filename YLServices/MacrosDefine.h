@@ -8,6 +8,7 @@
 
 #ifndef MacrosDefine_h
 #define MacrosDefine_h
+#import <objc/runtime.h>
 
 /// iPhoneX、iPhone XR、iPhone Xs、iPhone Xs Max 底部有安全距离所以可以使用 safeAreaInsets.bottom > 0.0 进行判断
 static inline BOOL KISIPhoneXSeries() {
@@ -73,7 +74,7 @@ static inline CGFloat removeFloatMin(CGFloat floatValue) {
  */
 static inline CGFloat flatSpecificScale(CGFloat floatValue, CGFloat scale) {
     floatValue = removeFloatMin(floatValue);
-    scale = scale == 0 ? kScreenScale : scale;
+    scale = scale == 0 ? [[UIScreen mainScreen] scale] : scale;
     CGFloat flattedValue = ceil(floatValue * scale) / scale;
     return flattedValue;
 }

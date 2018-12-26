@@ -14,6 +14,8 @@
 #import "MacrosDefine.h"
 #import "MacrosSingleton.h"
 #import "MacrosTools.h"
+#import "YLMBProgressHUD+Toast.h"
+#import "YLMBProgressHUD.h"
 
 FOUNDATION_EXPORT double YLServicesVersionNumber;
 FOUNDATION_EXPORT const unsigned char YLServicesVersionString[];
