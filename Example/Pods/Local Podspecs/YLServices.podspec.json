@@ -1,6 +1,6 @@
 {
   "name": "YLServices",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "iOS 开发工具",
   "homepage": "https://github.com/a619668402/YLServices",
   "authors": {
@@ -8,7 +8,7 @@
   },
   "source": {
     "git": "https://github.com/a619668402/YLServices.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "license": {
     "type": "MIT",
@@ -66,8 +66,16 @@
       "dependencies": {
         "YLServices/YLMacros": [
 
+        ],
+        "YLServices/YLMBProgress": [
+
         ]
       }
+    },
+    {
+      "name": "YLTools",
+      "source_files": "YLServices/YLTools/*.{h,m}",
+      "public_header_files": "YLServices/YLTools/*.h"
     }
   ]
 }

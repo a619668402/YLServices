@@ -18,6 +18,12 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'YLServices'
+
+依赖其他第三方库:
+'MJRefresh', '~> 3.1.15.7'
+'YTKNetwork', '~> 2.0.4'
+'ReactiveObjC', '~> 3.1.0'
+'YYWebImage', '~> 1.0.5'
 ```
 
 ## License

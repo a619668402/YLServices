@@ -53,6 +53,12 @@
 #import "MacrosDefine.h"
 #import "MacrosSingleton.h"
 #import "MacrosTools.h"
+#import "KAuthorityUtil.h"
+#import "KFileManager.h"
+#import "KNavigationBarManager.h"
+#import "KQRCodeUtil.h"
+#import "KSaveHelper.h"
+#import "SQPrintJsonLog.h"
 
 FOUNDATION_EXPORT double YLServicesVersionNumber;
 FOUNDATION_EXPORT const unsigned char YLServicesVersionString[];
