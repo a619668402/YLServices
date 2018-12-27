@@ -1,6 +1,6 @@
 {
   "name": "YLServices",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "summary": "iOS 开发工具",
   "homepage": "https://github.com/a619668402/YLServices",
   "authors": {
@@ -8,7 +8,7 @@
   },
   "source": {
     "git": "https://github.com/a619668402/YLServices.git",
-    "tag": "0.3.0"
+    "tag": "0.4.0"
   },
   "license": {
     "type": "MIT",
@@ -32,6 +32,9 @@
     ],
     "YYWebImage": [
       "~> 1.0.5"
+    ],
+    "MJExtension": [
+      "~> 3.0"
     ]
   },
   "subspecs": [

@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
   s.dependency 'YTKNetwork', '~> 2.0.4'
   s.dependency 'ReactiveObjC', '~> 3.1.0'
   s.dependency 'YYWebImage', '~> 1.0.5'
+  s.dependency 'MJExtension',  '~> 3.0'
 
   s.subspec 'YLMacros' do |ss|
   ss.source_files         = 'YLServices/YLMacros/*.{h,m}'
@@ -43,6 +44,5 @@ Pod::Spec.new do |s|
   s.subspec 'YLTools' do |ss|
   ss.source_files         = 'YLServices/YLTools/*.{h,m}'
   ss.public_header_files  = 'YLServices/YLTools/*.h'
-  #ss.ios.frameworks       = 'CoreImage', 'AVFoundation', 'AssetsLibrary', 'Photos', 'CoreLocation'
   end
 end
